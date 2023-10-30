@@ -1,6 +1,8 @@
 import './App.css';
+import { useSelector, useDispatch } from "react-redux";
 
 function App() {
+  const myState = useSelector((state) => state.changeTheNumber)
   return (
     <>
       <div className='container'>

@@ -1,11 +1,11 @@
-import React from 'react'
-
-const index = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+export const incNumber = () => {
+  return {
+    type: "INCREMENT"
+  }
 }
 
-export default index
+export const decNumber = () => {
+  return {
+    type: "DECREMENT"
+  }
+}
